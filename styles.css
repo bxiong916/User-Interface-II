@@ -1,0 +1,27 @@
+
+h1 {
+    border: 2px solid red;
+    background-color: red;
+  }
+  
+  
+  
+  
+  
+  
+  .container {
+    border: 2px solid tomato;
+    display: flex;
+    max-width: 800px;
+    height: 200px;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item {
+    border: 1px solid sienna; 
+    padding: 20px;
+    height: 60px;
+  }
