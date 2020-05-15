@@ -1,27 +1,26 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-h1 {
-    border: 2px solid red;
-    background-color: red;
-  }
-  
-  
-  
-  
-  
-  
-  .container {
-    border: 2px solid tomato;
-    display: flex;
-    max-width: 800px;
-    height: 200px;
-    margin: 50px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .item {
-    border: 1px solid sienna; 
-    padding: 20px;
-    height: 60px;
-  }
+article {
+  color: green;
+  margin: 10px;
+}
+
+footer {
+  font-size:  x-large;
+  font-style: italic;
+  background-color: red;
+  padding: 10px;
+}
+
+header {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  background: -moz-linear-gradient( #051118, #5c373c);
+  color: #caa893;
+  border: thin #CAA893 inset;
+  margin: 20px 20px;
+  padding: 10px 20px; 
+}
