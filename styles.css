@@ -1,26 +1,85 @@
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+html {
+  font-size: 30px;
+}
+.container {
+  background-color: royalblue;
+  width: 135%;
+  max-width: auto;
+  padding: 50px;
+  line-height: 2.9rem;
 }
 
-article {
-  color: green;
-  margin: 10px;
+td,
+th {
+  border: 10px solid black;
+  background-color: black;
 }
 
-footer {
-  font-size:  x-large;
-  font-style: italic;
-  background-color: red;
-  padding: 10px;
+h1 {
+  margin: auto;
 }
 
-header {
-  font-size: x-large;
-  font-weight: bold;
-  text-align: center;
-  background: -moz-linear-gradient( #051118, #5c373c);
-  color: #caa893;
-  border: thin #CAA893 inset;
-  margin: 20px 20px;
-  padding: 10px 20px; 
+.green-night-sky {
+  margin: left;
+left: 10px;
+  width: 450px;
+  height: 450px;
 }
+
+.main {
+  position: absolute;
+  top: 520px;
+  right: 50;
+  margin-left: 45%;
+}
+
+.item-1 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+img {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.item-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  li {
+    margin: 5px;
+    font-size: 2rem;
+  
+  
+ /* section {
+    padding: 20px;
+  }
+  
+  section h1 {
+    font-size: 4rem;
+  }
+  
+  section .articles {
+    display: flex;
+    border: 1px solid tomato;
+  }
+  section .articles article {
+    margin: 10px;
+    padding: 10px;
+  }
+  section .articles article h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  @media(max-width: 700px){
+    section .articles {
+      flex-direction: column;
+    }
+  } */
